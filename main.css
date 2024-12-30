@@ -1,0 +1,129 @@
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+
+
+}
+
+
+
+header li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
+
+
+    }
+
+header li a {
+    color: #f5f6fa;
+    text-decoration: none;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+
+body > header {
+    background-color: rgb(87, 87, 87);
+    padding: 16px 0;
+    color: #f5f6fa;
+}
+    
+.container {
+    
+    width: 1366px;
+    margin: 0 auto;
+    }
+    
+    /* Configuração do Flexbox para .articles */
+    
+.articles {
+    
+    display: flex; /* Ativa o Flexbox */
+    flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha */
+    gap: 20px; /* Espaçamento entre os itens, melhor que justify-content nesse caso */
+    
+    }
+    
+    
+    /* Estilo para os artigos individuais */
+    
+.articles article {
+    width: 30%; /* Três artigos por linha */
+
+    
+    }
+    
+    /* Estilo de imagens */
+    
+.articles article img {
+    
+    /* height: 200px;*/
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    
+}
+
+section {
+
+padding: 16px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+    font-size: 32px;
+}
+
+h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 24px;
+}
+
+.articles article a {
+    background-color: blue;
+    color: #fff;
+    padding: 8px;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.articles article p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+
+}
+
+#sports {
+    background-color: rgb(0, 225, 0, 0.1);
+}
+
+#sports .articles article a {
+    background-color: #009432;
+
+}
+
+#economy {
+    background-color: #f8f59f
+}
+
+#economy .articles article a {
+    background-color: #ff9f1a
+
+}
